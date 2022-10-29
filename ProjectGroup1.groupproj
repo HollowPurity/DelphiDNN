@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{47E57B4D-E0D1-42B7-8822-33B5E6CF8B5C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DNN.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Test\DNNTests.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DNN">
+        <MSBuild Projects="DNN.dproj"/>
+    </Target>
+    <Target Name="DNN:Clean">
+        <MSBuild Projects="DNN.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DNN:Make">
+        <MSBuild Projects="DNN.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DNNTests">
+        <MSBuild Projects="Test\DNNTests.dproj"/>
+    </Target>
+    <Target Name="DNNTests:Clean">
+        <MSBuild Projects="Test\DNNTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DNNTests:Make">
+        <MSBuild Projects="Test\DNNTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DNN;DNNTests"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DNN:Clean;DNNTests:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DNN:Make;DNNTests:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2022.10.29 13:54:18.668,=C:\Users\GregoryHammond\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 13:55:04.975,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNNmain.fmx=C:\Users\GregoryHammond\Documents\Embarcadero\Studio\Projekte\Unit1.fmx</Transaction>
+    <Transaction>2022.10.29 13:55:04.975,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNNmain.pas=C:\Users\GregoryHammond\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 13:55:30.508,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNN.dproj=C:\Users\GregoryHammond\Documents\Embarcadero\Studio\Projekte\Project2.dproj</Transaction>
+    <Transaction>2022.10.29 13:55:47.438,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 13:56:00.097,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNN.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:01:57.599,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:02:03.575,C:\Users\GregoryHammond\Desktop\Delphi\DNN\Layer.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:07:57.373,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:08:03.127,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNNMath.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:50:42.539,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:50:48.978,C:\Users\GregoryHammond\Desktop\Delphi\DNN\Vector.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:53:28.052,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:53:34.119,C:\Users\GregoryHammond\Desktop\Delphi\DNN\Matrix.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:54:40.156,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:54:47.297,C:\Users\GregoryHammond\Desktop\Delphi\DNN\MathTypes.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>2022.10.29 14:55:47.947,C:\Users\GregoryHammond\Desktop\Delphi\DNN\MathTypes.pas=</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>
