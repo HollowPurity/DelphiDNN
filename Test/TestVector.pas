@@ -35,10 +35,8 @@ implementation
 
 procedure TestTVector.SetUp;
 begin
-  FVector := TVector.Create;
-  FVector.setFields([1,2,3]);
-  vector := TVector.Create;
-  vector.setFields([1,2,3]);
+  FVector := TVector.Create([1,2,3]);
+  vector := TVector.Create([1,2,3]);
 end;
 
 procedure TestTVector.TearDown;
@@ -58,10 +56,11 @@ procedure TestTVector.TestsetFields;
 var
   V: TDoubleArray;
 begin
-  // TODO: Methodenaufrufparameter einrichten
+  // Setup
   V := [1,2,3];
   FVector.setFields(V);
-  // TODO: Methodenergebnisse prüfen
+
+  // Prüfen
   CheckEquals(1, V[0]);
   CheckEquals(2, V[1]);
   CheckEquals(3, V[2]);
@@ -69,9 +68,10 @@ end;
 
 procedure TestTVector.Testaddition;
 begin
-  // TODO: Methodenaufrufparameter einrichten
+  // setup
   FVector.addition(vector);
-  // TODO: Methodenergebnisse prüfen
+
+  // prüfen
   CheckEquals(2, FVector.fields[0]);
   CheckEquals(4, FVector.fields[1]);
   CheckEquals(6, FVector.fields[2]);
@@ -83,10 +83,9 @@ var
 begin
   //Setup
   d := 3;
-  // TODO: Methodenaufrufparameter einrichten
   FVector.SMultiplication(d);
-  // TODO: Methodenergebnisse prüfen
 
+  //Prüfen
   CheckEquals(3, FVector.fields[0]);
   CheckEquals(6, FVector.fields[1]);
   CheckEquals(9, FVector.fields[2]);
@@ -96,10 +95,10 @@ procedure TestTVector.TestdotMultiplication;
 var
   ReturnValue: Double;
 begin
-  // TODO: Methodenaufrufparameter einrichten
+  // Setup
   ReturnValue := FVector.dotMultiplication(vector);
 
-  // TODO: Methodenergebnisse prüfen
+  // Prüfen
   CheckEquals(14, ReturnValue);
 end;
 

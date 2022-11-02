@@ -59,7 +59,7 @@
 __history/
 __recovery/
 *.~*
-
+Test/_history/
 # Castalia statistics file (since XE7 Castalia is distributed with Delphi)
 *.stat
 
