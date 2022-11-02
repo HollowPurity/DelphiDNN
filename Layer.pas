@@ -54,7 +54,7 @@ function TLayer.forwardpass(inputVector: TVector): TVector;
 begin
 Result :=  weights.vectorMultiplication(inputVector);
 Result.addition(biases);
-//Result := acitvate(Result);
+Result := self.activate(Result);
 end;
 
 procedure TLayer.randomInitialize;

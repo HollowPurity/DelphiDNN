@@ -14,7 +14,7 @@ TMatrix = class
     function dotMultiply(arr1 : TDoubleArray; arr2 : TDoubleArray) : double;
   public
     fields : TDoubleMatrix;
-    procedure setSize(rows : Integer; columns : Integer);
+    procedure setSize(columns : Integer; rows : Integer);
     procedure setFields(A : TDoubleMatrix);
     procedure transpose;
     function getRowLength : Integer;
@@ -77,7 +77,7 @@ begin
   fields := A;
 end;
 
-procedure TMatrix.setSize(rows : Integer; columns: Integer);
+procedure TMatrix.setSize(columns : Integer; rows: Integer);
 var
 i : Integer;
 begin

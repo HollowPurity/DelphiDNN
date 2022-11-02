@@ -5,23 +5,23 @@
     <Transaction>1899.12.30 00:00:00.000.599,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.119,C:\Users\GregoryHammond\Desktop\Delphi\DNN\Matrix.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.975,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNNmain.pas=C:\Users\GregoryHammond\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.668,=C:\Users\GregoryHammond\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.575,C:\Users\GregoryHammond\Desktop\Delphi\DNN\Layer.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.975,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNNmain.fmx=C:\Users\GregoryHammond\Documents\Embarcadero\Studio\Projekte\Unit1.fmx</Transaction>
     <Transaction>1899.12.30 00:00:00.000.156,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.052,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.539,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.373,=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.668,=C:\Users\GregoryHammond\Documents\Embarcadero\Studio\Projekte\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.404,C:\Users\GregoryHammond\Documents\GitHub\DelphiDNN\DNN.pas=C:\Users\GregoryHammond\Documents\GitHub\DelphiDNN\DNNimplementation.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.947,C:\Users\GregoryHammond\Desktop\Delphi\DNN\MathTypes.pas=</Transaction>
     <Transaction>1899.12.30 00:00:00.000.297,C:\Users\GregoryHammond\Desktop\Delphi\DNN\MathTypes.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.508,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNN.dproj=C:\Users\GregoryHammond\Documents\Embarcadero\Studio\Projekte\Project2.dproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.978,C:\Users\GregoryHammond\Desktop\Delphi\DNN\Vector.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.127,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNNMath.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.833,C:\Users\GregoryHammond\Documents\GitHub\DelphiDNN\Unit1.pas=C:\Users\GregoryHammond\Documents\GitHub\DelphiDNN\ActivationFunctions.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.093,=C:\Users\GregoryHammond\Documents\GitHub\DelphiDNN\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.772,C:\Users\GregoryHammond\Documents\GitHub\DelphiDNN\ActivationFunctions.pas=</Transaction>
     <Transaction>1899.12.30 00:00:00.000.097,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNN.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.575,C:\Users\GregoryHammond\Desktop\Delphi\DNN\Layer.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
-    <Transaction>2022.11.02 14:47:40.772,C:\Users\GregoryHammond\Documents\GitHub\DelphiDNN\ActivationFunctions.pas=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.127,C:\Users\GregoryHammond\Desktop\Delphi\DNN\DNNMath.pas=C:\Users\GregoryHammond\Desktop\Delphi\DNN\Unit1.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile iOSSimulator="iPhone5"/>

@@ -48,11 +48,11 @@ begin
   FLayer.randomInitialize;
 
   CheckEquals(0, FLayer.weights.fields[0][0]);
-  CheckEquals(0.03, FLayer.weights.fields[0][1]);
-  CheckEquals(0.86, FLayer.weights.fields[0][2]);
-  CheckEquals(0.27, FLayer.weights.fields[1][0]);
-  CheckEquals(0.67, FLayer.weights.fields[1][1]);
-  CheckEquals(0.31, FLayer.weights.fields[1][2]);
+  CheckEquals(3/100, FLayer.weights.fields[0][1], 0.01,'Outside of Range');
+  CheckEquals(86/100, FLayer.weights.fields[0][2], 0.01,'Outside of Range');
+  CheckEquals(20/100, FLayer.weights.fields[1][0], 0.01,'Outside of Range');
+  CheckEquals(27/100, FLayer.weights.fields[1][1], 0.01,'Outside of Range');
+  CheckEquals(67/100, FLayer.weights.fields[1][2], 0.01,'Outside of Range');
 end;
 
 procedure TestTLayer.Testactivate;
@@ -63,12 +63,16 @@ begin
   // TODO: Methodenaufrufparameter einrichten
   vec := TVector.Create([0,-1,2,1]);
   ReturnValue := FLayer.activate(vec);
+  vec.Free;
+  vec := nil;
 
   // TODO: Methodenergebnisse prüfen
   CheckEquals(0,ReturnValue.fields[0]);
   CheckEquals(0,ReturnValue.fields[1]);
   CheckEquals(2,ReturnValue.fields[2]);
   CheckEquals(1,ReturnValue.fields[3]);
+  ReturnValue.Free;
+  ReturnValue := nil;
 end;
 
 procedure TestTLayer.Testforwardpass;
@@ -77,12 +81,19 @@ var
   inputVector: TVector;
 begin
   // TODO: Methodenaufrufparameter einrichten
+  FLayer.randomInitialize;
   inputVector := TVector.Create([1,2]);
+
   ReturnValue := FLayer.forwardpass(inputVector);
+  inputVector.Free;
+  inputVector := nil;
   // TODO: Methodenergebnisse prüfen
-  CheckEquals(1, ReturnValue.fields[0]);
-  CheckEquals(2, ReturnValue.fields[1]);
-  CheckEquals(3, ReturnValue.fields[2]);
+
+  CheckEquals(0.06 ,ReturnValue.fields[0], 0.01,'Outside of Range');
+  CheckEquals(0.74, ReturnValue.fields[1], 0.01,'Outside of Range');
+  CheckEquals(0.63, ReturnValue.fields[2], 0.01,'Outside of Range');
+  ReturnValue.Free;
+  ReturnValue := nil;
 end;
 
 procedure TestTLayer.Testbackwardpass;
@@ -91,8 +102,15 @@ var
   inputVector: TVector;
 begin
   // TODO: Methodenaufrufparameter einrichten
+  inputVector := TVector.Create([1,2,3]);
   ReturnValue := FLayer.backwardpass(inputVector);
+  inputVector.Free;
+  inputVector := nil;
   // TODO: Methodenergebnisse prüfen
+  CheckEquals(0.06 ,ReturnValue.fields[0], 0.01,'Outside of Range');
+
+  ReturnValue.Free;
+  ReturnValue := nil;
 end;
 
 initialization
