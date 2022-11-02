@@ -17,7 +17,11 @@ program DNNTests;
 uses
   DUnitTestRunner,
   TestVector in 'TestVector.pas',
-  Vector in '..\Vector.pas';
+  Vector in '..\Vector.pas',
+  TestMatrix in 'TestMatrix.pas',
+  Matrix in '..\Matrix.pas',
+  TestLayer in 'TestLayer.pas',
+  Layer in '..\Layer.pas';
 
 {$R *.RES}
 
